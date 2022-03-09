@@ -7,7 +7,7 @@ def create_starting_file(name: str) -> None:
     f.close()
 
 def create(name: str) -> None:
-    os.system(f"mkdir {name} && cd {name} && code .")
+    os.system(f"mkdir {name} && cd {name} && code-insiders .")
     create_starting_file(name)
     print("Heii dani proiectul tau >", name, "s-a creat lol. :>")
     sys.exit(1405)
